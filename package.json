@@ -6,7 +6,6 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/osain-az/editorjs-comment",
-
   "exports": {
     ".": {
       "import": "./dist/paragraph.mjs",
@@ -34,6 +33,8 @@
     "@types/node": "^20.11.19",
     "tsup": "^8.0.2",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@editorjs/editorjs": "^2.29.0"
   }
-
 }
