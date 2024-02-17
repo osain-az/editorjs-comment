@@ -1,6 +1,5 @@
 
-import { API,  ToolConfig } from "@editorjs/editorjs"; // to support typescript, you have install this while developing 
-import "react-dom/client";
+import { API,  ToolConfig } from "@editorjs/editorjs/types"; // to support typescript, you have install this while developing 
 
 enum CommentId {
   CommentBlockId = "commentBlockId",
