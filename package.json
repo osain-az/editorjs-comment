@@ -1,0 +1,31 @@
+{
+  "name": "editorjs-comment",
+  "version": "1.0.0",
+  "description": "editorjs-comment plugin that allows you to add comment  to editorjs",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "release": "pnpm run build && changeset publish",
+    "lint": "tsc"
+  },
+  "keywords": [
+    "editorjs",
+    "eomment",
+    "codex editor",
+    "header",
+    "tool",
+    "editor.js"
+  ],
+  "author": "Azibodusi osain",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@types/node": "^20.11.19",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+
+}
