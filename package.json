@@ -5,6 +5,14 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "repository": "https://github.com/osain-az/editorjs-comment",
+
+  "exports": {
+    ".": {
+      "import": "./dist/paragraph.mjs",
+      "require": "./dist/paragraph.umd.js"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup index.ts --format cjs,esm --dts",
