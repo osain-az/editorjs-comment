@@ -12,6 +12,7 @@
       "require": "./dist/paragraph.umd.js"
     }
   },
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup src/index.ts --format cjs,esm --dts",
