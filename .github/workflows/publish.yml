@@ -2,8 +2,11 @@ name: Publish
 on:
   workflow_run:
     workflows: [CI]
-    branches: [master]
+    branches: [main]
     types: [completed]
+  push: 
+    branches: 
+      - "master"
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
