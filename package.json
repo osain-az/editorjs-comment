@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/osain-az/editorjs-comment",
+  "repository": "git://github.com/osain-az/editorjs-comment.git",
   "exports": {
     ".": {
       "import": "./dist/paragraph.mjs",
