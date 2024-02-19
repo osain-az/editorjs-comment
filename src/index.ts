@@ -81,7 +81,6 @@ export interface CommentConfig {
   },
   * ```
  */
-
 export default class Comment {
   /**
    *  a unique id used to identify section of of comments
@@ -552,3 +551,5 @@ export default class Comment {
     };
   }
 }
+
+export {Comment}
