@@ -8,8 +8,8 @@
   "repository": "git://github.com/osain-az/editorjs-comment.git",
   "exports": {
     ".": {
-      "import": "./dist/paragraph.mjs",
-      "require": "./dist/paragraph.umd.js"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.umd.js"
     }
   },
   
