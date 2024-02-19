@@ -1,11 +1,11 @@
 {
   "name": "editorjs-comment",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "editorjs-comment plugin that allows you to add comment  to editorjs",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "repository": "git://github.com/osain-az/editorjs-comment.git",
+  "repository": "https://github.com/osain-az/editorjs-comment",
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
