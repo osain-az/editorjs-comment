@@ -1,0 +1,56 @@
+.comment-container {
+  margin-top: 30px;
+  background-color: rebeccapurple;
+  position: absolute;
+  background-color: #0ed27d;
+  border: 1px solid #e8e8eb;
+  -webkit-box-shadow: 0 3px 15px -3px rgba(13, 20, 33, 0.13);
+  box-shadow: 0 3px 15px -3px #0d142121;
+  border-radius: 6px;
+  z-index: 2;
+
+  visibility: visible;
+  will-change: transform, opacity;
+  -webkit-transition: opacity 0.1s ease, -webkit-transform 0.1s ease;
+  transition: opacity 0.1s ease, -webkit-transform 0.1s ease;
+  transition: transform 0.1s ease, opacity 0.1s ease;
+  transition: transform 0.1s ease, opacity 0.1s ease,
+    -webkit-transform 0.1s ease;
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+  left: -1px;
+  width: 190px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.cdx-comment {
+  background: rgba(222, 208, 12, 0.29);
+  padding: 3px 0;
+}
+
+.comment-popover {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: block; /* Initially hide the popover */
+  top: 0%; /* Position the top at the middle of the div */
+  left: 100%; /* Position the left at the end of the right side of the div */
+  transform: translate(
+    2%,
+    -0%
+  ); /* Adjust the position based on the popover size */
+}
+.cdx-comment-action {
+  background-color: green;
+}
+.comment-show-active {
+  border: solid green 2px;
+}
+.comment-popover.active {
+  display: block; /* Show the popover when the active class is applied */
+}
