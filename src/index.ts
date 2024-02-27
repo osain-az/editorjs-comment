@@ -28,6 +28,11 @@ export interface RenderBody {
    * @type {string|null}
    */
   commentBlockId: string | null;
+  /**
+   *  a EditorJS BlockId 
+   *
+   * @type {string|null}
+   */
   blockId: string | null;
   onClose: () => void;
   addCommentBlockData: (data: CommentBlockData) => void;

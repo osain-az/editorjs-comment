@@ -1,8 +1,8 @@
 # Editorjs plugin for adding comment.
 <!-- markdownlint-disable first-line-h1 -->
-<h1 align="center">Welcome to editorjs-commet 👋</h1>
+<h1 align="center">Welcome to editorjs-comment 👋</h1>
 <p>
-  <a href="https://www.npmjs.com/package/editorjs-inline" target="_blank">
+  <a href="https://www.npmjs.com/package/editorjs-comment" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/editorjs-comment.svg">
   </a>
   <a href="https://github.com/osain-az/editorjs-comment/blob/master/LICENSE" target="_blank">
